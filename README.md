@@ -1,16 +1,19 @@
 # Hansen33's Miner
 
-Hansen33's Miner is a high-performance, open-source DERO mining software designed for ease of use and compatibility with various platforms. Built with the latest AstroBWTv3 algorithm, it optimizes mining efficiency and ensures the best possible experience for users.
+Hansen33's Miner is a **high-performance**, closed-source **DERO miner for HiveOS** designed for ease of use and compatibility with various platforms. Built with the latest **AstroBWTv3 algorithm**, it optimizes mining efficiency and ensures the best possible experience for users.
+
+Mining Fee: **Only 2% Fee**
 
 # Features
 
 - Highly optimized AstroBWTv3 algorithm for maximum mining efficiency
 - Multi-threaded mining for improved performance on multi-core processors
 - Automatic job caching and efficient handling of job updates
-- Fixed developer mining fees, reviewed with each new release
 - Colorful console output for better readability and user experience
 - Detailed hashrate reporting and submitted results tracking
 - Easy-to-use command-line interface
+- HiveOS Support
+- AMD64 and ARM64 Architecture Supported
 
 # Getting Started
 
@@ -20,15 +23,21 @@ Hansen33's Miner is a high-performance, open-source DERO mining software designe
 
 ## Prerequisites
 
-- A Linux-based operating system (currently only amd64 support)
+- A Linux-based operating system (Supported on amd64 and arm64 architecture)
 - A DERO wallet address
 
 ## Download and Installation
 
 1. Download the latest binary release:
 
+* AMD64 Architecture
 ```bash
 wget https://dero-node.mysrv.cloud/files/hansen33s-dero-miner-linux-amd64 -O hansen33s-dero-miner
+```
+
+* ARM64 Architecture
+```bash
+wget https://dero-node.mysrv.cloud/files/hansen33s-dero-miner-linux-arm64 -O hansen33s-dero-miner
 ```
 
 2. Make the binary file executable:
@@ -50,7 +59,7 @@ Replace "your-wallet-address" with your DERO wallet address and "mining-pool-add
 # Usage
 
 ```
-Usage: ./hansen33s-dero-miner-linux-amd64 [OPTIONS]
+Usage: ./hansen33s-dero-miner [OPTIONS]
 Options:
   -daemon-rpc-address string
     	mining node address <host:port> (default "community-pools.mysrv.cloud:10300")
@@ -69,10 +78,10 @@ Options:
 - [DERO Project](https://github.com/deroproject/derohe)
 - [DERO Community Pools](https://community-pools.mysrv.cloud/)
 
-- 👉 As part of the DERO community, I'm committed to delivering the best mining experience possible. I welcome your feedback and suggestions.
+👉 As part of the DERO community, I'm committed to delivering the best mining experience possible. I welcome your feedback and suggestions.
 
 # ToDo
 
-- Release a version for ARM devices
+- Many More Optimisations (Stay tuned for updates)
 - Release a version for Windows
-- More Optimisations
+
