@@ -4,6 +4,8 @@ Hansen33's Miner is a **high-performance**, closed-source **DERO miner** designe
 
 Mining Fee: **Only 2% Fee**
 
+- [Main Page](README.md)
+
 # Features
 
 - Highly optimized AstroBWTv3 algorithm for maximum mining efficiency
@@ -14,8 +16,6 @@ Mining Fee: **Only 2% Fee**
 - Easy-to-use command-line interface
 - HiveOS Support
 - AMD64 and ARM64 Architecture Supported
-
-[Main Page](README.md)
 
 # Getting Started with HiveOS
 
@@ -37,12 +37,12 @@ Use the following examples to **Setup Miner Config** for Hansen33's Miner in Hiv
 
 ## Miner name
 ```
-    hansen33-miner
+hansen33-miner
 ```
 
 ## Installation URL
 ```
-    https://dero-node.mysrv.cloud/files/hansen33-miner-hiveos.tar.gz
+https://dero-node.mysrv.cloud/files/hansen33-miner-hiveos.tar.gz
 ```
 
 ## Hash algorithm
@@ -52,12 +52,12 @@ Use the following examples to **Setup Miner Config** for Hansen33's Miner in Hiv
 
 ## Wallet and worker template
 ```
-    %WAL%.%WORKER_NAME%
+%WAL%.%WORKER_NAME%
 ```
 
 ## Pool URL
 ```
-    community-pools.mysrv.cloud:10300
+community-pools.mysrv.cloud:10300
 ```
 
 ## Extra config arguments 
@@ -69,13 +69,13 @@ Use the following examples to **Setup Miner Config** for Hansen33's Miner in Hiv
 ### Alternative Pool Port (for closed networks)
 ## Pool URL
 ```
-    community-pools.mysrv.cloud:443
+community-pools.mysrv.cloud:443
 ```
 
 ### Use own Node
 ## Pool URL
 ```
-    <ip>:<mining-port>
+<ip>:<mining-port>
 ```
 
 # Force Update the Miner from HiveOS Shell
@@ -118,3 +118,4 @@ If mining to own node, consider checking out [Hansen33 Mod](https://github.com/H
 👉 As part of the DERO community, I'm committed to delivering the best mining experience possible. I welcome your feedback and suggestions.
 
 👋 Thank you for your continued support, and happy mining!
+
