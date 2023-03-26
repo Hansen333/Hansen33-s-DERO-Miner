@@ -59,17 +59,26 @@ Replace "your-wallet-address" with your DERO wallet address and "mining-pool-add
 # Usage
 
 ```
-Usage: ./hansen33s-dero-miner [OPTIONS]
+Usage: ./hansen33s-dero-miner-linux-amd64 [OPTIONS]
 Options:
+  -batch-size uint
+    	Batch size (default: 100000) (default 100000)
   -daemon-rpc-address string
     	mining node address <host:port> (default "community-pools.mysrv.cloud:10300")
+  -dump-stats-in-tmp
+    	Dump Miner Stats in /tmp/miner_*.txt files (default: false)
   -h	Show help
   -help
     	Show help
   -mining-threads int
     	Desired number of mining threads (default: number of CPU cores) (default 4)
+  -turbo
+    	2x output hash rate (default: false)
   -wallet-address string
     	Your dero wallet address. e.g dero1qy... (default "Will ask")
+  -worker-name string
+    	Worker name (default: empty)
+
 
 ```
 

@@ -47,7 +47,7 @@ https://dero-node.mysrv.cloud/files/hansen33-miner-hiveos.tar.gz
 
 ## Hash algorithm
 ```
-    astrobwt
+astrobwt
 ```
 
 ## Wallet and worker template
