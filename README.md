@@ -15,6 +15,10 @@ Mining Fee: **Only 2% Fee**
 - HiveOS Support
 - AMD64 and ARM64 Architecture Supported
 
+# Customized Version Available on Request!
+
+We are excited to announce that we now offer a customized version of Hansen33's Miner on request. Whether you are a mining pool or an individual miner, we can create a branded version of the miner or a node-locked/wallet-locked version to suit your needs. We are also open to discussing other customizations you might require. Our customizations start at just 25 DERO, and we are happy to work with you to create the best possible mining experience. Contact us today to learn more about how we can help you optimize your mining setup.
+
 # Getting Started
 
 ## HiveOS Guide
