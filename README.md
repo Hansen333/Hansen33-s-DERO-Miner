@@ -78,8 +78,6 @@ Replace "your-wallet-address" with your DERO wallet address and "mining-pool-add
     	Show help
   -log-file string
     	Log file name (default "/home/lenny/derohe/hansen33s-dero-miner-linux-amd64.log")
-  -lotto-mode
-    	Join the Miners Community Lotto (default: false)
   -mining-threads int
     	Desired number of mining threads per worker (default: number of CPU cores) (default 16)
   -turbo
