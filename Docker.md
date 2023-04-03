@@ -2,6 +2,9 @@
 
 This is a Docker image for the Hansen33's DERO Miner.
 
+Support us by giving us a :star: at **docker**hub
+- https://hub.docker.com/r/hansen333/dero-miner
+
 ## Prerequisites
 
 Make sure you have Docker installed.
