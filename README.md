@@ -25,40 +25,41 @@ We are excited to announce that we now offer a customized version of Hansen33's 
 
 - For HiveOS users, see the [HiveOS Setup Guide](HiveOS.md)
 
+## Docker Guide
+
+- For Docker users, see the [Docker Guide](Docker.md)
+
 ## Prerequisites
 
 - A Linux-based operating system (Supported on amd64 and arm64 architecture)
 - A DERO wallet address
 
-## Download and Installation
+## Download the Miner
 
-1. Download the latest binary release:
+Download the latest binary release from the [Github repository](https://github.com/Hansen333/Hansen33-s-DERO-Miner/releases).
 
-* AMD64 Architecture
-```bash
-wget https://dero-node.mysrv.cloud/files/hansen33s-dero-miner-linux-amd64 -O hansen33s-dero-miner
-```
+- For Windows and macOS, simply double-click on the downloaded file to run the miner.
+- For Linux and other platforms, use the command line to navigate to the downloaded file and run the miner using the following command:
 
-* ARM64 Architecture
-```bash
-wget https://dero-node.mysrv.cloud/files/hansen33s-dero-miner-linux-arm64 -O hansen33s-dero-miner
-```
+| Platform | Architecture | Download Link |
+| -------- | ------------ | ------------- |
+| Android  | ARM64        | [hansen33s-dero-miner-android-arm64.tar.gz](https://github.com/hansen333/dero-miner/releases/latest/download/hansen33s-dero-miner-android-arm64.tar.gz) |
+| Darwin   | AMD64        | Coming Soon |
+| Darwin   | ARM64        | Coming Soon |
+| FreeBSD  | AMD64        | Coming Soon |
+| Linux    | AMD64        | [hansen33s-dero-miner-linux-amd64.tar.gz](https://github.com/hansen333/dero-miner/releases/latest/download/hansen33s-dero-miner-linux-amd64.tar.gz) |
+| Linux    | ARM64        | [hansen33s-dero-miner-linux-arm64.tar.gz](https://github.com/hansen333/dero-miner/releases/latest/download/hansen33s-dero-miner-linux-arm64.tar.gz) |
+| Windows  | AMD64        | [hansen33s-dero-miner-windows-amd64.exe.zip](https://github.com/hansen333/dero-miner/releases/latest/download/hansen33s-dero-miner-windows-amd64.exe.zip) |
 
-2. Make the binary file executable:
+## Start Mining
 
-```bash
-chmod +x hansen33s-dero-miner
-```
+- When prompted, enter your DERO wallet address to start mining.
+- For an even better mining experience, use the options available to optimize the miner's performance.
 
-3. Run the miner with the required flags:
+## Consider the Hansen33 Mod
 
-```bash
-./hansen33s-dero-miner -wallet-address "your-wallet-address" -daemon-rpc-address "mining-pool-address:port"
-```
+If you're mining to your own node, consider checking out [Hansen33 Mod](https://github.com/Hansen333/derohe-Hansen33-mod/releases) for enhanced features and performance stats.
 
-Replace "your-wallet-address" with your DERO wallet address and "mining-pool-address:port" with the address and port of the mining pool you want to mine on.
-
-*If mining to own node, consider checking out [Hansen33 Mod](https://github.com/Hansen333/derohe-Hansen33-mod/releases)*
 
 # Usage
 
@@ -99,8 +100,6 @@ Replace "your-wallet-address" with your DERO wallet address and "mining-pool-add
 
 👉 As part of the DERO community, I'm committed to delivering the best mining experience possible. I welcome your feedback and suggestions.
 
-# ToDo
+## Upcoming Developments
 
-- Many More Optimisations (Stay tuned for updates)
-- Release a version for Windows
-
+Get ready for the mining revolution! We are proud to announce that we are currently rewriting the codebase for an entirely new type of miner. This groundbreaking innovation has never been seen before in the world of cryptocurrency mining. Stay tuned for updates on our progress and be among the first to experience the future of mining.
