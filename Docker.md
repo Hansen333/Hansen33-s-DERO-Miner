@@ -1,9 +1,10 @@
-# Hansen33' DERO Miner Docker Image
+# Introducing the Hansen33's DERO Miner Docker Image
 
-This is a Docker image for the Hansen33's DERO Miner.
+Get started with the sleek and efficient Hansen33's DERO Miner in our brand-new Docker image!
 
-Support us by giving us a :star: at **docker**hub
-- https://hub.docker.com/r/hansen333/dero-miner
+- Install and launch the miner in no time with just two simple commands. Experience the fastest installation process yet!
+- Effortlessly deploy to multiple nodes with the ease of two commands, making fleet-wide management a breeze.
+- Unlock the full potential of your mining experience with the Hansen33's DERO Miner Docker Image - designed for simplicity, speed, and scalability!
 
 ## Prerequisites
 
@@ -40,6 +41,16 @@ docker run -it -e DERO_WALLET=dero1qy07h9mk6xxf2k4x0ymdpezvksjy0talskhpvqmat3xk3
 docker run -d -e DERO_WALLET=dero1qy07h9mk6xxf2k4x0ymdpezvksjy0talskhpvqmat3xk3d9wczg5jqqvwl0sn hansen333/dero-miner:latest
 ```
 
+### Auto Restart
+
+Add following option
+```bash
+--restart=always
+```
+
+### 
+
+* Replace value in `DERO_WALLET` with your own Wallet Address
 * Before running in background, you should verify the `-workers` and `-mining-threads` config are set for maximum performance.
 
 ## Environment Variables
@@ -71,3 +82,5 @@ docker run -d \
     -e WORKERS=<number_of_miner_processes> \
     hansen333/dero-miner:latest
 ```
+
+:star: Show your support by giving us a star on **docker**hub!
