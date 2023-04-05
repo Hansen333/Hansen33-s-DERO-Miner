@@ -45,7 +45,7 @@ Download the latest binary release below
 | -------- | ------------ | ------------- |
 | Android  | ARM64        | [hansen33s-dero-miner-android-arm64.tar.gz](https://github.com/Hansen333/Hansen33-s-DERO-Miner/releases/latest/download/hansen33s-dero-miner-android-arm64.tar.gz) |
 | Darwin   | Combined     | [hansen33s-dero-miner-linux-darwin.tar.gz](https://github.com/Hansen333/Hansen33-s-DERO-Miner/releases/latest/download/hansen33s-dero-miner-linux-darwin.tar.gz) |
-| FreeBSD  | AMD64        | [hansen33s-dero-miner-freebsd-amd64.tar.gz](https://github.com/Hansen333/Hansen33-s-DERO-Miner/releases/latest/download/ hansen33s-dero-miner-freebsd-amd64.tar.gz) |
+| FreeBSD  | AMD64        | [hansen33s-dero-miner-freebsd-amd64.tar.gz](https://github.com/Hansen333/Hansen33-s-DERO-Miner/releases/latest/download/hansen33s-dero-miner-freebsd-amd64.tar.gz) |
 | Linux    | AMD64        | [hansen33s-dero-miner-linux-amd64.tar.gz](https://github.com/Hansen333/Hansen33-s-DERO-Miner/releases/latest/download/hansen33s-dero-miner-linux-amd64.tar.gz) |
 | Linux    | ARM64        | [hansen33s-dero-miner-linux-arm64.tar.gz](https://github.com/Hansen333/Hansen33-s-DERO-Miner/releases/latest/download/hansen33s-dero-miner-linux-arm64.tar.gz) |
 | Windows  | AMD64        | [hansen33s-dero-miner-windows-amd64.zip](https://github.com/Hansen333/Hansen33-s-DERO-Miner/releases/latest/download/hansen33s-dero-miner-windows-amd64.exe.zip) |
