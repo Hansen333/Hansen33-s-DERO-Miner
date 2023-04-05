@@ -1,10 +1,8 @@
-# Hansen33's Miner for HiveOS
+# Hansen33's DERO Miner for HiveOS
 
 Hansen33's Miner is a **high-performance**, closed-source **DERO miner for HiveOS** designed for ease of use and compatibility with various platforms. Built with the latest **AstroBWTv3 algorithm**, it optimizes mining efficiency and ensures the best possible experience for users.
 
 Mining Fee: **Only 2% Fee**
-
-- [Main Page](README.md)
 
 # Features
 
@@ -119,3 +117,4 @@ If mining to own node, consider checking out [Hansen33 Mod](https://github.com/H
 
 👋 Thank you for your continued support, and happy mining!
 
+[Main Page](README.md)

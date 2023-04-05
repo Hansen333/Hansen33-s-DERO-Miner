@@ -1,4 +1,4 @@
-# Hansen33's Miner
+# Hansen33's DERO Miner
 
 Hansen33's Miner is a **high-performance**, closed-source **DERO miner** designed for ease of use and compatibility with various platforms. Built with the latest **AstroBWTv3 algorithm**, it optimizes mining efficiency and ensures the best possible experience for users.
 
@@ -31,25 +31,28 @@ We are excited to announce that we now offer a customized version of Hansen33's 
 
 ## Prerequisites
 
-- A Linux-based operating system (Supported on amd64 and arm64 architecture)
-- A DERO wallet address
+To use Hansen33's Miner, you will need:
+
+- A compatible operating system such as Windows, macOS, Linux, FreeBSD, or Android (supported on AMD64 and ARM64 architecture)
+- A DERO Wallet Address [HOWTO Video by Rabid Mining](https://www.youtube.com/watch?v=yjdudIZ5PfI)
+
 
 ## Download the Miner
 
-Download the latest binary release from the [Github repository](https://github.com/Hansen333/Hansen33-s-DERO-Miner/releases).
-
-- For Windows and macOS, simply double-click on the downloaded file to run the miner.
-- For Linux and other platforms, use the command line to navigate to the downloaded file and run the miner using the following command:
+Download the latest binary release below
 
 | Platform | Architecture | Download Link |
 | -------- | ------------ | ------------- |
 | Android  | ARM64        | [hansen33s-dero-miner-android-arm64.tar.gz](https://github.com/Hansen333/Hansen33-s-DERO-Miner/releases/latest/download/hansen33s-dero-miner-android-arm64.tar.gz) |
-| Darwin   | AMD64        | Coming Soon |
-| Darwin   | ARM64        | Coming Soon |
-| FreeBSD  | AMD64        | Coming Soon |
+| Darwin   | Combined     | [hansen33s-dero-miner-linux-darwin.tar.gz](https://github.com/Hansen333/Hansen33-s-DERO-Miner/releases/latest/download/hansen33s-dero-miner-linux-darwin.tar.gz) |
+| FreeBSD  | AMD64        | [hansen33s-dero-miner-linux-freebsd-amd64.tar.gz](https://github.com/Hansen333/Hansen33-s-DERO-Miner/releases/latest/download/hansen33s-dero-miner-linux-freebsd-amd64.tar.gz) |
 | Linux    | AMD64        | [hansen33s-dero-miner-linux-amd64.tar.gz](https://github.com/Hansen333/Hansen33-s-DERO-Miner/releases/latest/download/hansen33s-dero-miner-linux-amd64.tar.gz) |
 | Linux    | ARM64        | [hansen33s-dero-miner-linux-arm64.tar.gz](https://github.com/Hansen333/Hansen33-s-DERO-Miner/releases/latest/download/hansen33s-dero-miner-linux-arm64.tar.gz) |
 | Windows  | AMD64        | [hansen33s-dero-miner-windows-amd64.zip](https://github.com/Hansen333/Hansen33-s-DERO-Miner/releases/latest/download/hansen33s-dero-miner-windows-amd64.zip) |
+| HiveOS   | AMD64        | [hansen33-miner-hiveos.tar.gz](https://github.com/Hansen333/Hansen33-s-DERO-Miner/releases/latest/download/hansen33-miner-hiveos.tar.gz) |
+
+
+Once you have downloaded the miner, simply double-click on the downloaded file to run the miner on Windows and macOS. For Linux and other platforms, use the command line to navigate to the downloaded file and run the miner using the command line interface provided.
 
 ## Start Mining
 
@@ -59,7 +62,6 @@ Download the latest binary release from the [Github repository](https://github.c
 ## Consider the Hansen33 Mod
 
 If you're mining to your own node, consider checking out [Hansen33 Mod](https://github.com/Hansen333/derohe-Hansen33-mod/releases) for enhanced features and performance stats.
-
 
 # Usage
 
@@ -80,7 +82,11 @@ If you're mining to your own node, consider checking out [Hansen33 Mod](https://
   -log-file string
     	Log file name (default "/home/lenny/derohe/hansen33s-dero-miner-linux-amd64.log")
   -mining-threads int
-    	Desired number of mining threads per worker (default: number of CPU cores) (default 16)
+    	Desired number of mining threads per worker (default 5)
+  -no-thread-locking
+    	Disable thread locking (default: false)
+  -thread-lock-individuals
+    	Enable locking for individual thread processes - default is workers are locked (default: false)
   -turbo
     	2x output hash rate (default: false)
   -wallet-address string
@@ -88,9 +94,9 @@ If you're mining to your own node, consider checking out [Hansen33 Mod](https://
   -worker-name string
     	Worker name (default: empty)
   -worker-start-delay int
-    	Delay in seconds before starting worker processes (default 1)
+    	Delay in seconds before starting worker processes (default: 0)
   -workers int
-    	Number of miner processes (default 1)
+    	Number of miner processes (default 4)
 ```
 
 # Acknowledgements
